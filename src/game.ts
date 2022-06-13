@@ -114,7 +114,7 @@ new Model(
     position: new Vector3(
       10.362780570983887,
       3.042880058288574,
-      2.0378494262695312
+      2.037849426269531
     ),
     rotation: new Quaternion(
       -0.7089106440544128,
@@ -667,8 +667,8 @@ class PowerMeterSystem implements ISystem {
   }
 }
 
-let powerMeterSys: PowerMeterSystem;
-powerMeterSys = new PowerMeterSystem();
+//let powerMeterSys: PowerMeterSystem;
+const powerMeterSys: PowerMeterSystem = new PowerMeterSystem();
 engine.addSystem(powerMeterSys);
 
 // Controls
