@@ -1,9 +1,9 @@
 import { Sound } from "./sound"
 import resources from "../resources";
 
-const hitSound01 = new Sound(resources.sounds.hit1, false)
-const hitSound02 = new Sound(resources.sounds.hit2, false)
-const hitSound03 = new Sound(resources.sounds.hit3, false)
+const hitSound01 = new Sound(resources.sounds.ballhit1, false)
+const hitSound02 = new Sound(resources.sounds.ballhit2, false)
+const hitSound03 = new Sound(resources.sounds.ballhit3, false)
 const hitSounds: Sound[] = [hitSound01, hitSound02, hitSound03]
 
 const pickUpSound = new Sound(resources.sounds.pickup, false)
