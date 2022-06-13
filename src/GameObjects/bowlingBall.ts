@@ -1,5 +1,5 @@
-import { Sound } from "./sound"
-import resources from "../resources";
+import { Sound } from './sound'
+import resources from '../resources'
 
 const hitSound01 = new Sound(resources.sounds.ballhit1, false)
 const hitSound02 = new Sound(resources.sounds.ballhit2, false)
@@ -13,13 +13,12 @@ const THROW_STRENGTH_MULTIPLIER = 150;
 const BALL_DAMPENING = 0.1;
 
 export class BowlingBall extends Entity {
-
-    public isActive: boolean = false;
-    public isThrown: boolean = false;
-    public world: CANNON.World;
-    public body: CANNON.Body;
-    private StartLoc: Vector3;
-    private BallLocked: boolean = false;
+    public isActive: boolean = false
+    public isThrown: boolean = false
+    public world: CANNON.World
+    public body: CANNON.Body
+    private StartLoc: Vector3
+    private BallLocked: boolean = false
 
     constructor(transform: Transform, _material: CANNON.Material, _world: CANNON.World, _parent: Entity) {
         super();
