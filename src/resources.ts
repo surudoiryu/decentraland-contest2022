@@ -7,7 +7,7 @@ export default {
         ballhit1: new AudioClip("sounds/sounds_ballhit01.mp3"),
         ballhit2: new AudioClip("sounds/sounds_ballhit02.mp3"),
         ballhit3: new AudioClip("sounds/sounds_ballhit03.mp3"),
-        pickup: new AudioClip("sounds/get_ready.wav"),
+        pickup: new AudioClip("sounds/get_ready.mp3"),
         throw: new AudioClip("sounds/sounds_throw.mp3"),
         strike: new AudioClip("sounds/sounds_strike_spare.mp3"),
         spare: new AudioClip("sounds/sounds_strike_spare.mp3"),
